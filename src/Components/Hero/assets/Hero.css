@@ -1,0 +1,12 @@
+.each-slide img{
+    position: relative;
+    height: 550px;
+    width: 100%;
+}
+.react-slideshow-container .default-nav:first-of-type {
+    border-radius: 19px 4px 5px 21px;
+}
+.react-slideshow-container .default-nav:last-of-type {
+    margin-left: -31px !important;
+    border-radius: 5px 19px 19px 5px;
+}
