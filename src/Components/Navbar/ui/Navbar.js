@@ -33,29 +33,21 @@ const Navbar = () => {
                   <Link className="nav-link" aria-current="page" to="/"></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/home">
+                    <Link className="nav-link" to="/">
                     Home
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/checkout">
+                    <Link className="nav-link" to="/cart">
                     Checkout
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item col-lg-12 col-md-12 ">
                     <Link className="nav-link" to="/addnew">
-                    Add
+                    Add New Item
                     </Link>
                   </li>
-                <div className="cart_wrap">
-                  <Link to="/cart">
-                    <span>
-                      <i className="fas fa-shopping-cart"></i>
-                    </span>
-                  </Link>
-                  <span className="count"></span>
-                </div>
-                
+          
               </ul>
             </div>
           </div>

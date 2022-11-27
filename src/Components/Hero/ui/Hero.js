@@ -8,13 +8,13 @@ import image3 from "../assets/homeImage3.png";
 const Hero = () => {
   const slideImages = [
     {
-      url: image3,
+      url: image1,
     },
     {
       url: image2,
     },
     {
-      url: image1,
+      url: image3,
     },
   ];
   return (

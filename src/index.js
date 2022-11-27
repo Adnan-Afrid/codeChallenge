@@ -7,7 +7,7 @@ import {store} from './store.js'
 import { Provider } from "react-redux";
 //import rootReducer from "./redux/reducers";
 
-
+// eslint-disable-next-line
 ReactDOM.render(
   <Provider store={store}>
     <App />

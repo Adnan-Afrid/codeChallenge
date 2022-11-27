@@ -1,3 +1,14 @@
+.container{
+    margin-top: 40px;
+}
+.wrap_title{
+    font-weight: 600;
+      font-size: 33px;
+      color: tomato;
+      font-family: 'montserrat';
+      border-bottom: 2px solid black;
+      font-family: system-ui;
+  }
 .card_wrap{
     margin-top: 8%;
     box-shadow: 0 7px 9px rgb(0 0 0 / 12%);

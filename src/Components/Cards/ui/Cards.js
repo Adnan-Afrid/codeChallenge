@@ -10,19 +10,27 @@ const Card = () => {
   const dispatch = useDispatch();
   const allProducts = useSelector((state) => state.PostReducers);
   const all = allProducts.productItems.data;
+  
   useEffect(() => {
     dispatch(allActions.itemAction.fetchPosts());
   }, [dispatch]);
   
   const handleCart = (id) =>{
-    dispatch(allActions.cartActions.fetchCart(id));
+    dispatch(allActions.cartAction.fetchCart(id));
   }
 
   return (
     <div className="container">
+      <span className="wrap_title">Items Are Here</span>
       <div className="row mb-5">
         {all != null ? (
           all.map((item, index) => {
+
+            if(!item.source){
+              item.img = item.img.split('.')
+              item.img = `http://localhost:5006${item.img[1]}.${item.img[2]}
+              `}
+              console.log("item.image", item.img)
             return (
               <div className="col-lg-4 card_wrap" key={index}>
                 <div className="image_wrap">

@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+    align-items: center;
+}
+.form-group{
+    text-align: initial;
+}
+.bill_wrap h3{
+    color: tomato;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.mb-3{
+    text-align: initial;
+}
+label{
+    margin-top: 13px;
+    font-size: 17px;
+    font-weight: 700;
+}
+form button{
+    border: none;
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: tomato;
+    background-color: black;
+    margin-bottom: 30px;
+}
